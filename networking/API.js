@@ -7,6 +7,7 @@ const getJobs = () => {
     .then(response => response.data);
 }
 
+
 module.exports = {
   getJobs
 }
